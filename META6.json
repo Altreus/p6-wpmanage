@@ -1,0 +1,17 @@
+{
+    "licence": "BSD-3-Clause",
+    "repo-type": "git",
+    "source-url": "git@github.com:altreus/p6-wpmanage.git",
+    "auth": "github:altreus",
+    "depends": ["MagickWand"],
+    "provides": {
+        "WPManage::Wallpaper": "lib/WPManage/Wallpaper.pm6",
+        "WPManage::Magic": "lib/WPManage/Magic.pm6",
+        "WPManage": "lib/WPManage.pm6"
+    },
+    "name": "WPManage",
+    "description": "Perl 6 module for making desktop wallpapers.",
+    "perl": "6.*",
+    "version": "0.0.1",
+    "authors": ["Alastair 'altreus' Douglas <altreus@altre.us>"]
+}
